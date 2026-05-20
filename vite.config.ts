@@ -6,7 +6,11 @@ import react from "@vitejs/plugin-react";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+/** GitHub Pages: BASE_PATH=/repo-name/ при сборке в CI */
+const base = process.env.BASE_PATH?.trim() || "/";
+
 export default defineConfig({
+  base,
   plugins: [react(), tailwindcss()],
   server: {
     host: "127.0.0.1",

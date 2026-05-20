@@ -1,0 +1,47 @@
+{
+  "name": "alabuga-platform",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "init:project": "node scripts/init-project.js",
+    "dev": "vite",
+    "dev:vite": "vite",
+    "server:start": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/start-dev-server.ps1 -Port 5173 -MaxOffset 20",
+    "server:stop": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/stop-dev-server.ps1",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "encoding:check": "node scripts/check-text-encoding.js",
+    "figma:status": "node scripts/figma-connection-status.js",
+    "figma:status:write": "node scripts/figma-connection-status.js --write"
+  },
+  "dependencies": {
+    "borrom-ds-test": "*",
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^25.0.10",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "prettier": "^3.4.2",
+    "tailwindcss": "^4.0.0",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.15.0",
+    "vite": "^6.0.0"
+  }
+}

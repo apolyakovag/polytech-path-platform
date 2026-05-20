@@ -1,0 +1,28 @@
+.br-xs {
+  /* number */
+  --br-component-lg: 1px;
+  --br-component-md: 1px;
+  --br-component-sm: 1px;
+  --br-component-xs: 1px;
+}
+.br-sm {
+  /* number */
+  --br-component-xs: 3px;
+  --br-component-sm: 4px;
+  --br-component-md: 5px;
+  --br-component-lg: 6px;
+}
+.br-md {
+  /* number */
+  --br-component-xs: 8px;
+  --br-component-sm: 9px;
+  --br-component-md: 11px;
+  --br-component-lg: 12px;
+}
+.br-lg {
+  /* number */
+  --br-component-lg: 360px;
+  --br-component-md: 360px;
+  --br-component-sm: 360px;
+  --br-component-xs: 360px;
+}

@@ -1,0 +1,17 @@
+.br_size {
+  /* number */
+  --br-zero-radius: 0px;
+  --br-xxs-radius: 2px;
+  --br-xs-radius: 4px;
+  --br-sm-radius: 6px;
+  --br-md-radius: 8px;
+  --br-l-radius: 10px;
+  --br-xl-radius: 12px;
+  --br-2xl-radius: 14px;
+  --br-3xl-radius: 16px;
+  --br-4xl-radius: 18px;
+  --br-5xl-radius-4: 20px;
+  --br-6xl-radius: 22px;
+  --br-7xl-radius: 24px;
+  --br-circle-radius: 400px;
+}

@@ -1,0 +1,12 @@
+.width_xs {
+  /* number */
+  --size-modal-width: 394px;
+}
+.width_sm {
+  /* number */
+  --size-modal-width: 444px;
+}
+.width_md {
+  /* number */
+  --size-modal-width: 544px;
+}

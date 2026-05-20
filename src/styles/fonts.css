@@ -1,0 +1,20 @@
+/*
+  Roboto Flex is the required font for Figma parity.
+
+  Preferred production setup:
+  1. Put RobotoFlex.woff2 into src/assets/fonts/RobotoFlex.woff2.
+  2. Replace the Google Fonts import below with the local @font-face block.
+  3. Keep font-family name exactly "Roboto Flex".
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
+
+/*
+@font-face {
+  font-family: "Roboto Flex";
+  src: url("../assets/fonts/RobotoFlex.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+*/
